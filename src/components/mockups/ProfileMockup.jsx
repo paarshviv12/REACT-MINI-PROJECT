@@ -99,7 +99,7 @@ const ProfileMockup = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-4 left-4">
-              <h4 className="text-white font-bold text-lg">Bali, Indonesia</h4>
+              <h4 className="text-white font-bold text-lg">Bali, India</h4>
             </div>
             <div className="absolute top-3 left-3 bg-teal-500 text-white text-[10px] font-bold px-2 py-1 rounded-full flex items-center gap-1">
               <span>🕒 13 days until departure</span>

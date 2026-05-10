@@ -205,10 +205,10 @@ const Home = () => {
           <div className="max-w-2xl">
             <h1 className="text-7xl md:text-8xl font-black uppercase tracking-tight leading-[0.95] mb-6 drop-shadow-lg text-white" style={{ fontFamily: "Arial, sans-serif" }}>
               WONDERFUL<br />
-              <span className="text-white">INDONESIA</span>
+              <span className="text-white">INDIA</span>
             </h1>
             <p className="text-sm md:text-base font-medium max-w-md text-gray-200 drop-shadow-md">
-              Raja Ampat is an archipelago located in West Papua Province, Indonesia. Consisting of four main islands—Waigeo, Misool, Salawati, and Batanta—and hundreds of smaller islands. Raja Ampat is known as one of the world's paradises for nature lovers and divers.
+              Raja Ampat is an archipelago located in West Papua Province, India. Consisting of four main islands—Waigeo, Misool, Salawati, and Batanta—and hundreds of smaller islands. Raja Ampat is known as one of the world's paradises for nature lovers and divers.
             </p>
           </div>
 
@@ -291,7 +291,7 @@ const Home = () => {
               TRAVEL AND<br/>ENJOY THE<br/>BEAUTY OF<br/>NATURE
             </h2>
             <p className="text-sm text-gray-300 max-w-md leading-relaxed">
-              Bali is an Indonesian island located in Southeast Asia, known for its stunning natural beauty, vibrant culture, and rich history. It is often referred to as the "Island of the Gods" due to its many temples and spiritual significance.
+              Bali is an Indian island located in Southeast Asia, known for its stunning natural beauty, vibrant culture, and rich history. It is often referred to as the "Island of the Gods" due to its many temples and spiritual significance.
             </p>
           </div>
 
