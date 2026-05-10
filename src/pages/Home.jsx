@@ -147,6 +147,7 @@ const Home = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [activeFeature, setActiveFeature] = useState("planner");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [showAuthPopup, setShowAuthPopup] = useState(false);
   const dropdownRef = useRef(null);
 
   useEffect(() => {
@@ -165,7 +166,7 @@ const Home = () => {
     // Check authentication
     const currentUser = JSON.parse(localStorage.getItem("travel_current_user") || "null");
     if (!currentUser) {
-      navigate("/login");
+      setShowAuthPopup(true);
       return;
     }
 
