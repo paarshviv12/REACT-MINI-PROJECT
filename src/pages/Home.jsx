@@ -390,6 +390,53 @@ const Home = () => {
         </div>
       </section>
 
+      {/* ── Auth Popup Modal ── */}
+      {showAuthPopup && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
+          style={{ backgroundColor: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)" }}
+        >
+          <div
+            className="rounded-3xl p-10 max-w-md w-full text-center shadow-2xl border"
+            style={{
+              backgroundColor: "var(--cream)",
+              borderColor: "rgba(140,120,100,0.2)"
+            }}
+          >
+            <div
+              className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6"
+              style={{ backgroundColor: "var(--sage-light, #d4e6d4)" }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} style={{ color: "var(--sage)" }}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            </div>
+            <h3
+              className="text-2xl font-black uppercase tracking-widest mb-4"
+              style={{ color: "var(--ink)" }}
+            >
+              Sign In Required
+            </h3>
+            <p
+              className="font-medium mb-10 leading-relaxed text-base"
+              style={{ color: "var(--ink-muted)" }}
+            >
+              Please Sign in to Get Started with your Journey &amp; Experience
+            </p>
+            <button
+              onClick={() => {
+                setShowAuthPopup(false);
+                navigate("/login");
+              }}
+              className="w-full py-4 rounded-xl text-white font-black uppercase tracking-widest transition-all hover:opacity-90 hover:scale-[1.02] shadow-lg"
+              style={{ backgroundColor: "var(--ink)" }}
+            >
+              Ok, Let's Sign In
+            </button>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 };
