@@ -26,19 +26,9 @@ PLOINK is a modern, feature-rich web application designed to help users plan, bu
 
 Ensure you have Node.js and npm installed on your local machine.
 
-### Installation
-
-1.  Clone the repository:
-    git clone git@github.com:paarshviv12/REACT-MINI-PROJECT.git
-
-2.  Navigate into the project directory:
-    cd REACT-MINI-PROJECT
-
-3.  Install dependencies:
-    npm install
-
-4.  Start the development server:
-    npm run dev
+### To Use:
+Just copy the link: 
+Enjoy the service.
 
 ## Architecture & Structure
 
