@@ -161,6 +161,14 @@ const Home = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
+
+    // Check authentication
+    const currentUser = JSON.parse(localStorage.getItem("travel_current_user") || "null");
+    if (!currentUser) {
+      navigate("/login");
+      return;
+    }
+
     if (!destValue) return;
     setIsSearching(true);
     
