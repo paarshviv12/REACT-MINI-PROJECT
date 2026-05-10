@@ -216,17 +216,30 @@ const Home = () => {
               WONDERFUL<br />
               <span className="text-white">INDIA</span>
             </h1>
-            <p className="text-sm md:text-base font-medium max-w-md text-gray-200 drop-shadow-md">
-              Raja Ampat is an archipelago located in West Papua Province, India. Consisting of four main islands—Waigeo, Misool, Salawati, and Batanta—and hundreds of smaller islands. Raja Ampat is known as one of the world's paradises for nature lovers and divers.
-            </p>
-          </div>
 
-          <div className="flex flex-col items-end gap-2 pr-4 text-gray-300 font-bold text-lg hidden md:flex">
-            <span className="text-white">01</span>
-            <span>02</span>
-            <span className="flex items-center gap-2">03 <div className="w-8 h-0.5 bg-white"></div></span>
-            <span>04</span>
-            <span>05</span>
+            {/* India stats row */}
+            <div className="flex gap-6 mb-6">
+              <div className="border-l-2 border-white/40 pl-3">
+                <p className="text-white font-black text-xl">1.4B+</p>
+                <p className="text-gray-400 text-xs uppercase tracking-widest">Population</p>
+              </div>
+              <div className="border-l-2 border-white/40 pl-3">
+                <p className="text-white font-black text-xl">28</p>
+                <p className="text-gray-400 text-xs uppercase tracking-widest">States</p>
+              </div>
+              <div className="border-l-2 border-white/40 pl-3">
+                <p className="text-white font-black text-xl">42</p>
+                <p className="text-gray-400 text-xs uppercase tracking-widest">UNESCO Sites</p>
+              </div>
+              <div className="border-l-2 border-white/40 pl-3">
+                <p className="text-white font-black text-xl">5000+</p>
+                <p className="text-gray-400 text-xs uppercase tracking-widest">Years of History</p>
+              </div>
+            </div>
+
+            <p className="text-sm md:text-base font-medium max-w-md text-gray-200 drop-shadow-md">
+              India is a land of breathtaking diversity — from the snow-capped peaks of the Himalayas to the golden beaches of Goa, the ancient temples of Rajasthan to the backwaters of Kerala. A country that captivates every sense and leaves every traveller transformed.
+            </p>
           </div>
         </div>
         
